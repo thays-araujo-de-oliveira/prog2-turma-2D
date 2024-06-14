@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html>
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal  {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-<head>
-    <title>Alura Plus</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-</body>
-
-</html>
+    background-image: url("img/Background.png");
+}
+.container {
+    height: 100vh;
+}
